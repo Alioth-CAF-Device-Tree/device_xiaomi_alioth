@@ -779,6 +779,13 @@ vendor/lib64/libstagefright_soft_ddpdec.so|b860975169b94d790f4148ae081db03f63fe6
 vendor/lib64/libstagefright_soft_qtiflacdec.so|db05297299ae2c429f276b2a0b26905dbc4e1ffc
 vendor/lib64/libstagefrightdolby.so|aae740a3a084ce784da22bbb940885969b234a55
 
+# Dolby Application - OnePlus
+system_ext/etc/sysconfig/config-com.dolby.daxappui.xml|fce084b5ea52db53d25a7bbf64d8c7ce
+system_ext/etc/sysconfig/config-com.dolby.daxservice.xml|cd1424d569038a393fccadb457c930c2
+system_ext/etc/sysconfig/hiddenapi-com.dolby.daxservice.xml|3d8dfe8008f667cf2b3572983c08c3af
+system_ext/priv-app/DaxUI/DaxUI.apk|feae263be94cabae10ade62f50fb7051
+system_ext/priv-app/daxService/daxService.apk|2e2c5f6939d7545c7f59fa2b15deb727
+
 # FASTCV
 vendor/lib/rfsa/adsp/libapps_mem_heap.so
 vendor/lib/rfsa/adsp/libdspCV_skel.so
