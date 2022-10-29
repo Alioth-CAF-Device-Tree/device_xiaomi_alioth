@@ -744,6 +744,41 @@ vendor/etc/ltm_config_xiaomi_38_08_0a_cmd_mode_dsc_dsi_panel.xml|06f8f68a6072cbb
 vendor/etc/mdss_dsi_k11a_38_08_0a_dsc_cmd_mi.xml|b6156e3b04f8bfe5750401cf89c62ed8cf07df38
 vendor/etc/tunings.txt|196b4cc4410dd4c521ace955a225b4c8b47268a4
 
+# Dolby Engine - MIUI
+system/lib/vendor.dolby.hardware.dms@2.0.so|04e911fbccf56946551bebe9226a41d05d1a5103
+system/lib64/vendor.dolby.hardware.dms@2.0.so|d98f91b9dcc181bcf0c6b5d92ae7d19f354208f9
+vendor/bin/hw/vendor.dolby.hardware.dms@2.0-service|ff827406bbcd1c82e790730bb017b7af38850004
+vendor/etc/init/vendor.dolby.hardware.dms@2.0-service.rc|29296ebfe89b2697fec573be73cc3757fd97bed6
+-vendor/etc/vintf/manifest/manifest_vendor.dolby.hardware.dms.xml|e14caab9b769e58a993583c0486d58b30249ca92|c8095f649de19b80271fb429b4b6b439297a0678
+vendor/lib/libdapparamstorage.so|d1952f09354f414238e5bd0f57dd0d3f85b8f769
+vendor/lib/libdeccfg.so|c9ea6a462e3a0d00e31223bf2a9c5dd84beff122
+vendor/lib/vendor.dolby.hardware.dms@2.0.so|2bf537bbf5c413527e5c648b8e63b95f904f7532
+vendor/lib64/libdapparamstorage.so|a8e3bb20ee8579a13d5beef17a0ad251055e9d7b
+vendor/lib64/libdeccfg.so|8d9f0e66a16afe605490a30dd2943bb30cf3e4f6
+vendor/lib64/libdlbdsservice.so|c4658f58874db5964a74e9509a4e0160affd164f
+vendor/lib64/vendor.dolby.hardware.dms@2.0-impl.so|e90be71a671e64662742b6ee36d7060ed9974726
+vendor/lib64/vendor.dolby.hardware.dms@2.0.so|2020b5fd9abac65520224069bbe75d5e76d3f158
+
+# Dolby SoundFX - MIUI
+vendor/lib/soundfx/libhwdap.so|4832a5e6e67831980f7d1c68727335567fe9dc53
+vendor/lib/soundfx/libswdap.so|f98c6c627d4e9beb679850c4d69bf917d207c5a2
+vendor/lib/soundfx/libswgamedap.so|93101491221a06b02ab02b12288d00110645e48f
+vendor/lib/soundfx/libswvqe.so|4123ad118d98e3bc2573f0e972703789d2451637
+vendor/lib64/soundfx/libhwdap.so|647f4c387ae7e1b70cf856493dd2e8a3cb10af13
+vendor/lib64/soundfx/libswdap.so|7bb2d6b42c0917b842761cdd9bcbb58c18bbe599
+vendor/lib64/soundfx/libswgamedap.so|ce3c4efed44b3634b07669977a5a6e26a1ca23d8
+vendor/lib64/soundfx/libswvqe.so|5cf9fcc0a59af3474dfe18a4b10e1472defd11fc
+
+# Dolby Media - MIUI
+vendor/lib/libstagefright_soft_ac4dec.so|c74f0a1f7b6f58da01e83b4f4db4a9c19fa52462
+vendor/lib/libstagefright_soft_ddpdec.so|f7c10aa69dc46e881021d198bdbca26157f1cc80
+vendor/lib/libstagefright_soft_qtiflacdec.so|6af6c2ce6c308ca2de18538e667d617fbfe64e3b
+vendor/lib/libstagefrightdolby.so|cc78b1ecc291a2ff69ba05d00652b500229c0c11
+vendor/lib64/libstagefright_soft_ac4dec.so|222966d126f254cc27da0aee40612297493a57cb
+vendor/lib64/libstagefright_soft_ddpdec.so|b860975169b94d790f4148ae081db03f63fe6f44
+vendor/lib64/libstagefright_soft_qtiflacdec.so|db05297299ae2c429f276b2a0b26905dbc4e1ffc
+vendor/lib64/libstagefrightdolby.so|aae740a3a084ce784da22bbb940885969b234a55
+
 # FASTCV
 vendor/lib/rfsa/adsp/libapps_mem_heap.so
 vendor/lib/rfsa/adsp/libdspCV_skel.so
