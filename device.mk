@@ -185,6 +185,10 @@ PRODUCT_VENDOR_PROPERTIES += \
     ro.vendor.audio.dolby.dax.support=true \
     ro.vendor.audio.dolby.surround.enable=true
 
+# Dolby-Config
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml
+
 # Dolby Permissions
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/permissions/,$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions)
