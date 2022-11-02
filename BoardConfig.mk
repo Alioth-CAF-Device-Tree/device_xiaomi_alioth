@@ -162,5 +162,8 @@ TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 TARGET_RECOVERY_UI_MARGIN_HEIGHT := 75
 TARGET_USERIMAGES_USE_F2FS := true
 
+# USB
+TARGET_QTI_USB_SUPPORTS_AUDIO_ACCESSORY := true
+
 # SEPolicy
 -include device/xiaomi/alioth/sepolicy/alioth-sepolicy.mk
