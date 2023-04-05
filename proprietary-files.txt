@@ -761,7 +761,7 @@ vendor/etc/permissions/com.fingerprints.extension.xml|de711d8827e1d321b22b60fd75
 vendor/etc/vintf/manifest/android.hardware.biometrics.fingerprint@2.1-service.xml|49e82d6a43981e254d224dcc93b3ff27e0fb8407
 vendor/etc/vintf/manifest/manifest_fpc.xml|3a6b28e508205b9d41aa660200cb76078841d4bf
 vendor/framework/com.fingerprints.extension.jar|190f8631c968017120110b8765091f7a95c59d4e
-vendor/lib64/hw/fingerprint.fpc.so|1e80938a423c6b83c126bbb5efe3f22cd1c61459
+vendor/lib64/hw/fingerprint.fpc.so|17c300063005b9e6c606bf97389eeb2a955c87e2
 vendor/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0.so|0ae47fd4218b5606f4cf7136b635efb77105ad2f
 
 # GPS
