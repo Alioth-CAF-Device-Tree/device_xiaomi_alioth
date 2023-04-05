@@ -79,6 +79,8 @@ vendor/lib/rfsa/adsp/misound_res_headphone.bin|a67809404abbec960cfe3d1d7c99fce85
 vendor/lib/rfsa/adsp/misound_res_spk.bin|be3e9c6dd2632ad529dd4f4e9a5df5d955ff11c1
 
 # Audio (Configs) - MIUI
+vendor/etc/audio_policy_engine_product_strategies_mi.xml:vendor/etc/audio_policy_engine_product_strategies.xml|efced22194f14006cd26092655e868ec5c4d171c
+vendor/etc/audio_policy_engine_stream_volumes_mi.xml:vendor/etc/audio_policy_engine_stream_volumes.xml|369f1f41fbb954ef70b38bd459e94030c9f748a4
 vendor/etc/audio_configs.xml|eb74ffb11b3b5190bb8070f84de0798ed53ebc87
 vendor/etc/audio_configs_stock.xml|0bd072df25ff1641701bf9fa066bdfefd3b52565
 vendor/etc/audio_effects.conf|49e00ca08a1cc3688d2f88bbf67fae5a5ebeabb4
@@ -88,8 +90,6 @@ vendor/etc/audio_platform_info_intcodec.xml|e92ca8f1da14867d9e8711067713a0fd4559
 vendor/etc/audio_platform_info_qrd.xml|22fedc76c434063c1b905055b187a75c37ec7933
 vendor/etc/audio_policy_engine_configuration.xml|ef0cdc9ac80ab1a14c279e3f73f8a2090f360bda
 vendor/etc/audio_policy_engine_default_stream_volumes.xml|490d76f7eb26f7594611efc8d14515caa29feaaf
-vendor/etc/audio_policy_engine_product_strategies_mi.xml:vendor/etc/audio_policy_engine_product_strategies.xml|efced22194f14006cd26092655e868ec5c4d171c
-vendor/etc/audio_policy_engine_stream_volumes_mi.xml:vendor/etc/audio_policy_engine_stream_volumes.xml|369f1f41fbb954ef70b38bd459e94030c9f748a4
 vendor/etc/audio_policy_volumes.xml|b6c0faeb54ac8f02c7b2f0cf6e3e4740d21e5386
 vendor/etc/audio_tuning_mixer.txt|e6bfc9499e2ac82acfda8cb932949f3035dc8f5a
 vendor/etc/cirrus.cfg|a2d9bf923d3d736a58baaacf23e3b406a9fd854b
@@ -553,9 +553,9 @@ vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so|afeca01f1fc
 vendor/bin/batterysecret|e495988b7619cffccb8e834d3d7c75fecb12b524
 vendor/bin/hvdcp_opti|d3dae2d3c64df366b82d11deb100af4d8813131f
 vendor/bin/init.qti.chg_policy.sh|9a96b05abdfe149eb8a7e20a791284e84b5fffe0
-vendor/etc/charger_fstab.qti|8464c139d93f05e86ff9c9d31b3e8617b8d9476e
 vendor/etc/init/init.batterysecret.rc|9abbe6fd82a0bd5b4499bfe141a5645e76e57606
 vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc|29b23be4f604282abf715f86aec9697175a9aaad
+vendor/etc/charger_fstab.qti|8464c139d93f05e86ff9c9d31b3e8617b8d9476e
 
 # CNE
 vendor/app/CACertService/CACertService.apk
