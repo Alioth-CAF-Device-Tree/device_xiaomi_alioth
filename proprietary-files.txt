@@ -855,6 +855,13 @@ vendor/lib64/libdlbdsservice.so|f3225b3ee8778f609effcb313ca64f32c7494f5e
 vendor/lib64/vendor.dolby.hardware.dms@2.0-impl.so|e90be71a671e64662742b6ee36d7060ed9974726
 vendor/lib64/vendor.dolby.hardware.dms@2.0.so|2020b5fd9abac65520224069bbe75d5e76d3f158
 
+# Media (Dolby DAX Service & APP) - MOD
+system_ext/etc/sysconfig/config-com.dolby.daxappui.xml|fce084b5ea52db53d25a7bbf64d8c7ce
+system_ext/etc/sysconfig/config-com.dolby.daxservice.xml|cd1424d569038a393fccadb457c930c2
+system_ext/etc/sysconfig/hiddenapi-com.dolby.daxservice.xml|3d8dfe8008f667cf2b3572983c08c3af
+system_ext/priv-app/DaxUI/DaxUI.apk|e176f7b5663cf6292ac3cac61d7f1ce1
+system_ext/priv-app/daxService/daxService.apk|493c2c391a73facb9e0dc9e8ec921705
+
 # MMI
 vendor/bin/hw/vendor.qti.hardware.factory@1.0-service
 vendor/bin/mmid
