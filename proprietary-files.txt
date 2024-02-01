@@ -849,9 +849,11 @@ vendor/lib/libdeccfg.so|c9ea6a462e3a0d00e31223bf2a9c5dd84beff122
 vendor/lib/libstagefright_soft_ac4dec.so|81400862e01f07d48ee99cefa385e84067ecedc0
 vendor/lib/libstagefright_soft_ddpdec.so|ead5f3168180c52f9d29654402081152c23448d6
 vendor/lib/libstagefright_soft_qtiflacdec.so|4e8d9ecb64fd90c95cd9700308e5aec6a952a38c
+vendor/lib/libstagefrightdolby.so|112aaae083412bebb5b6398155f0c0c358d45617
 vendor/lib/vendor.dolby.hardware.dms@2.0.so|2bf537bbf5c413527e5c648b8e63b95f904f7532
 vendor/lib64/libdapparamstorage.so|a8e3bb20ee8579a13d5beef17a0ad251055e9d7b
 vendor/lib64/libdlbdsservice.so|f3225b3ee8778f609effcb313ca64f32c7494f5e
+vendor/lib64/libstagefrightdolby.so|bab2ecfa384b5a59250cb887166a3185ea918f65
 vendor/lib64/vendor.dolby.hardware.dms@2.0-impl.so|e90be71a671e64662742b6ee36d7060ed9974726
 vendor/lib64/vendor.dolby.hardware.dms@2.0.so|2020b5fd9abac65520224069bbe75d5e76d3f158
 
