@@ -1220,12 +1220,23 @@ vendor/lib64/vendor.qti.esepowermanager@1.0.so
 vendor/lib64/vendor.qti.esepowermanager@1.1.so
 
 # SecureMSM (SECDISP)
-vendor/lib64/libSecureUILib.so
-vendor/lib64/libStDrvInt.so
-vendor/lib64/libsecureui.so
-vendor/lib64/libsecureui_svcsock.so
-vendor/lib64/libsi.so
-vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so
+vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti|772dfdebadcfb9af3e6253fd3baf6d7502394ddd
+vendor/bin/secure_ui_sample_client|3286afeae259abf4b7a6f31fe070d127f3e25fd8
+vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc|2cfc563d7e1579374f001c94588fae7835a12ffc
+vendor/lib/libSecureUILib.so|a35e85fc3786a7a6114eeb9d95c872361d4fede2
+vendor/lib/libStDrvInt.so|f4fb3b5e7a7b9ad50814e1679358ac20002efbad
+vendor/lib/libsecureui.so|a42652f4555be734cc92683be7215412471ce27e
+vendor/lib/libsecureui_svcsock.so|f47c94ecb06a9c995ed784b4cf5a5252dde4c7d7
+vendor/lib/libsi.so|88d2cfb6c1fe66817b8f2f4f1f8088034cb1c910
+vendor/lib/vendor.qti.hardware.qdutils_disp@1.0.so|de542976a21db7fa2cb9c9643bf45282c42a7a83
+vendor/lib/vendor.qti.hardware.tui_comm@1.0.so|fd837d6c0a33a802360fa3a3b5f4d5bc6374ab5a
+vendor/lib64/libSecureUILib.so|c87439b983b56804530e1e6b4f7e8c312ebdd94c
+vendor/lib64/libStDrvInt.so|6b1882e0a903a5bf1cfc9a4da0e1705073b7ceb8
+vendor/lib64/libsecureui.so|7b08568b5d548d543a3e3be80845d45d82fbdb01
+vendor/lib64/libsecureui_svcsock.so|f15e94084dd66745763696af3c07cef7681ea98c
+vendor/lib64/libsi.so|e9e0c360ff5fbcc94beec7981cadeaa352d44247
+vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so|0a74aac5ca2e7a78c97d54dad065439e8fd81af0
+vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|ddd34e7ef39a29f7db546e6a2bc0c3b90e13c9a0
 
 # SecureMSM
 vendor/bin/hdcp1prov
