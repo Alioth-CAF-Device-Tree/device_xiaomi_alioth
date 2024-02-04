@@ -52,3 +52,7 @@ SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += \
 # Xiaomi TouchFeature
 BOARD_SEPOLICY_DIRS += \
     device/xiaomi/alioth/sepolicy/vendor/xiaomi/touchfeature
+
+# DC Dimming - Dimlayer Exposure
+BOARD_SEPOLICY_DIRS += \
+    device/xiaomi/alioth/sepolicy/vendor/xiaomi/dcdimming

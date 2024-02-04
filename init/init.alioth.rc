@@ -45,6 +45,10 @@ on boot
     chown system system /dev/xiaomi-touch
     chmod 0660 /dev/xiaomi-touch
 
+    # Allow system to modify exposure dim layer state
+    chown system system /sys/devices/platform/soc/soc:qcom,dsi-display-primary/dimlayer_exposure
+    chmod 0660 /sys/devices/platform/soc/soc:qcom,dsi-display-primary/dimlayer_exposure
+
 on property:vendor.post_boot.parsed=1
     # configure input boost settings
     write /sys/devices/system/cpu/cpu_boost/input_boost_freq "0:1344000"
