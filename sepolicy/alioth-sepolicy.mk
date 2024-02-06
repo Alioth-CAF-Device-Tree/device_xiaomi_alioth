@@ -38,3 +38,13 @@ BOARD_SEPOLICY_DIRS += \
 # Dolby Exported Sepolicy
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
     device/xiaomi/alioth/sepolicy/private/dolby
+
+# Xiaomi Parts Sepolicy
+BOARD_SEPOLICY_DIRS += \
+    device/xiaomi/alioth/sepolicy/vendor/xiaomi/parts
+
+SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
+    device/xiaomi/alioth/sepolicy/private/xiaomi/parts
+
+SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += \
+    device/xiaomi/alioth/sepolicy/public/xiaomi/parts
